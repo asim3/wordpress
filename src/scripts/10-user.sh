@@ -6,8 +6,8 @@ set -o pipefail
 # set -o xtrace # Uncomment this line for debugging purposes
 
 
-if ! wp user get asim --field=ID ; then 
-    wp user create asim asim@wp-cli.com --role=administrator --user_pass=asim
+if ! wp user get admin --field=ID ; then 
+    wp user create admin admin@wp-cli.com --role=administrator --user_pass=admin
 fi;
 
 

@@ -15,7 +15,7 @@ services:
     depends_on:
       - mariadb
     environment:
-      - WORDPRESS_SKIP_BOOTSTRAP=yes
+      - WORDPRESS_SKIP_BOOTSTRAP=no
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
       - WORDPRESS_DATABASE_HOST=mariadb

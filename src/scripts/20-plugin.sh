@@ -25,6 +25,6 @@ wp plugin install \
 #   wp-file-upload \
 #   --activate
 
-wp plugin verify-checksums --all
+# wp plugin verify-checksums --all
 
 echo "** WordPress plugin setup finished! **"
