@@ -11,10 +11,10 @@
 ```bash
 docker compose up
 
-docker compose down && docker compose up --build --force-recreate
+docker compose up --build --force-recreate
 
 # Delete Database
-docker compose down && docker volume rm wordpress-github_mariadb_data
+docker compose down --volumes --remove-orphans
 ```
 
 [open wp admin](http://7f000001.nip.io/wp-admin)

@@ -8,16 +8,17 @@ set -o pipefail
 
 wp plugin delete --all
 
-wp plugin install \
-  all-in-one-wp-migration \
-  wpforms-lite \
-  display-a-meta-field-as-block \
-  advanced-custom-fields \
-  newsletter \
-  --activate
+wp plugin install updraftplus  --activate
+
+# wp plugin install \
+#   wpforms-lite \
+#   newsletter \
+#   --activate
 
 # wp plugin install \
 #   elementor \
+#   display-a-meta-field-as-block \
+#   advanced-custom-fields \
 #   image-optimization \
 #   wpforms-lite \
 #   wordpress-seo \

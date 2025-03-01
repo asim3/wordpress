@@ -6,7 +6,7 @@ set -o pipefail
 # set -o xtrace # Uncomment this line for debugging purposes
 
 
-cat <<EOF | wp post generate --count=50 --post_title="My Post Title" --post_content --post_type=post --post_status=publish --post_author=5
+cat <<EOF | wp post generate --count=20 --post_title="My Post Title" --post_content --post_type=post --post_status=publish --post_author=5
 Extremity direction existence as dashwoods do up. Securing marianne led welcomed offended but offering six raptures. Conveying concluded newspaper rapturous oh at. Two indeed suffer saw beyond far former mrs remain. Occasional continuing possession we insensible an sentiments as is. Law but reasonably motionless principles she. Has six worse downs far blush rooms above stood.
 
 Up unpacked friendly ecstatic so possible humoured do. Ample end might folly quiet one set spoke her. We no am former valley assure. Four need spot ye said we find mile. Are commanded him convinced dashwoods did estimable forfeited. Shy celebrated met sentiments she reasonably but. Proposal its disposed eat advanced marriage sociable. Drawings led greatest add subjects endeavor gay remember. Principles one yet assistance you met impossible.
